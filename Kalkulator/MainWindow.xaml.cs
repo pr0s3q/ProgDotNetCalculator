@@ -11,7 +11,9 @@ namespace Kalkulator
 
         #region Constructors
 
+        #pragma warning disable CS8618
         public MainWindow()
+        #pragma warning restore CS8618
         {
             InitializeComponent();
             SetStartupData();
@@ -419,7 +421,6 @@ namespace Kalkulator
 
         private const int LABEL_CONTENT_MAX_SIZE = 18;
         private const int LABEL_CONTENT_MIN_SIZE = 0;
-
 
         #endregion
 
